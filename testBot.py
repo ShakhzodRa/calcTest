@@ -92,8 +92,6 @@ async def main() -> None:
     dp.include_router(rt)
     await dp.start_polling(bot)
 
-# алина шлюха
-
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     asyncio.run(main())
